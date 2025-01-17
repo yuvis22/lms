@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios'; // for making HTTP requests
+import axios from 'axios'; 
 
 const SuggestionBox = ({ bookId }) => {
     const [suggestionText, setSuggestionText] = useState('');
