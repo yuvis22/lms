@@ -13,7 +13,7 @@ export const makeChartOptions = (index, chartData) => {
         },
         yAxis: {
             labels: {
-                // eslint-disable-next-line no-template-curly-in-string
+             
                 format: index === 1 ? "${value}" : null,
             },
             title: {
